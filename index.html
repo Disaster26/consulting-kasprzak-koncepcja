@@ -10,7 +10,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Cpath d='M2 25L27 7l3 1-2 4-4 1z' fill='%23ED1C24'/%3E%3Cpath d='M2 25l22-12 3 12z' fill='%23231F20'/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/manrope-pl.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="img/hero-m-720.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-960.webp 960w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-m-800.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-600.webp 600w, img/hero-m-800.webp 800w, img/hero-m-960.webp 960w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
 <link rel="preload" as="image" href="img/hero-1440.webp" imagesrcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-2000.webp 2000w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
 <style>
 @font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
@@ -256,7 +256,7 @@ p{margin:0 0 1em}
 
 <header class="hdr">
  <div class="wrap">
-  <a class="logo" href="#hero" aria-label="con-sult-ing.com, strona główna"><img src="img/logo.webp" width="203" height="112" alt="con-sult-ing.com"></a>
+  <a class="logo" href="#hero" aria-label="con-sult-ing.com, strona główna"><img src="img/logo.webp" srcset="img/logo-60.webp 109w, img/logo.webp 203w" sizes="(max-width:920px) 80px, 109px" width="203" height="112" alt="con-sult-ing.com"></a>
   <nav class="menu" id="menu" aria-label="Menu główne">
    <a href="#kroki">Pierwsze kroki</a>
    <a href="#uslugi">Usługi</a>
@@ -274,7 +274,7 @@ p{margin:0 0 1em}
 <main id="tresc">
 <section class="hero" id="hero">
  <picture>
-  <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-960.webp 960w" sizes="100vw">
+  <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-600.webp 600w, img/hero-m-800.webp 800w, img/hero-m-960.webp 960w" sizes="100vw">
   <img src="img/hero-1440.webp" srcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-2000.webp 2000w" sizes="100vw" width="2000" height="1333" alt="Port i plaża Postiguet w Alicante, widok z góry" fetchpriority="high" decoding="async">
  </picture>
  <svg class="hero-lot" viewBox="0 0 520 220" aria-hidden="true"><path d="M4 210 C 120 200, 220 150, 300 100 S 420 40, 440 34" fill="none" stroke="#ED1C24" stroke-width="2.5" stroke-dasharray="11 8"/><use href="#samolot" x="430" y="2" width="88" height="36"/></svg>
@@ -368,8 +368,8 @@ p{margin:0 0 1em}
   <div class="jez-trasa"><span>Polska</span><i aria-hidden="true"></i><svg class="sam" width="46" height="19" aria-hidden="true"><use href="#samolot"/></svg><span>Hiszpania, Baleary, Wyspy Kanaryjskie</span></div>
  </div>
  <figure class="jez-foto">
-  <img src="img/expl-960.webp" srcset="img/expl-640.webp 640w, img/expl-960.webp 960w, img/expl-1280.webp 1280w" sizes="(max-width:920px) 100vw, 50vw" width="1280" height="853" alt="Promenada Explanada de España w Alicante z palmami" loading="lazy" decoding="async">
-  <figcaption>Explanada de España, Alicante</figcaption>
+  <img src="img/expl-960.webp" srcset="img/expl-480.webp 480w, img/expl-720.webp 720w, img/expl-960.webp 960w, img/expl-1280.webp 1280w" sizes="(max-width:920px) 100vw, 50vw" width="1280" height="853" alt="Promenada Explanada de España w Alicante z palmami" loading="lazy" decoding="async">
+  <figcaption>Explanada, Alicante</figcaption>
  </figure>
 </section>
 
@@ -399,7 +399,7 @@ p{margin:0 0 1em}
   </div>
   <figure class="np-foto">
    <img src="img/plaza-960.webp" srcset="img/plaza-640.webp 640w, img/plaza-960.webp 960w, img/plaza-1280.webp 1280w" sizes="(max-width:920px) calc(100vw - 40px), 560px" width="1280" height="960" alt="Wybrzeże Gran Alacant, plaża Carabassí i wydmy" loading="lazy" decoding="async">
-   <figcaption>Gran Alacant, plaża Carabassí</figcaption>
+   <figcaption>Gran Alacant, plaża Carabasi</figcaption>
   </figure>
  </div>
 </section>
@@ -465,7 +465,7 @@ p{margin:0 0 1em}
  <div class="wrap">
   <div class="stopka-sz">
    <div>
-    <img src="img/logo-biale.webp" width="203" height="112" alt="con-sult-ing.com" decoding="async">
+    <img src="img/logo-biale.webp" srcset="img/logo-biale-60.webp 109w, img/logo-biale.webp 203w" sizes="105px" width="203" height="112" alt="con-sult-ing.com" decoding="async" loading="lazy">
     <p>Kancelaria prawna, biuro księgowe, doradztwo personalne i biznesowe. Obsługa w języku polskim na terenie Hiszpanii, Balearów i Wysp Kanaryjskich.</p>
     <p>Avenida Escandinavia 3, 2 bajo 5, 03130 Gran Alacant</p>
    </div>
